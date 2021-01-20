@@ -1,0 +1,72 @@
+body {
+	font-family: "Courier New";
+}
+
+nav {
+	background-color: darkgray;
+	display: flex;
+}
+
+nav a{
+	background-color: darkgray;
+	text-decoration: none;
+	padding: 15px;
+	float: left;
+	color: white;
+}
+
+nav a:hover{
+	background-color: lightgray;
+}
+
+.vgallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.vgallery .evid {
+	margin: 1vh 2vw;
+}
+
+.igallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.igallery .img-wrap {
+	text-align: center;
+	margin: 1vh 8vw;
+}
+
+.igallery img {
+	width: 200px;
+}
+
+table, td, th {  
+  border: 1px solid black;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.button {
+  background-color: lightblue;
+  border-radius: 10%;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.button:hover {
+ background-color: darkblue;
+}
