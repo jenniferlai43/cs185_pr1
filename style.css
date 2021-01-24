@@ -98,3 +98,10 @@ th, td {
   min-height: 60vh;
   max-height: 60vh;
 }
+
+.overlay-vid {
+  margin: auto;
+  display: block;
+  min-height: 60vh;
+  max-height: 60vh;
+}

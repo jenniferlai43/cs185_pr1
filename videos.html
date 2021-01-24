@@ -18,15 +18,27 @@
 	<br>
 
 	<h1>Jennifer's Videos Page</h1>
-	<h3>Some of my favorite cooking/baking videos!</h3>
+	<h3>Some random videos!</h3>
 
+	<div id="imgModal" class="modal">
+	  	<video class="overlay-vid" id="overlay-vid" width="560" height="315" controls></video>
+	</div>
 	<div class="vgallery">
-		<iframe class="evid" width="560" height="315" src="https://www.youtube.com/embed/VJI76M7LxoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe class="evid" width="560" height="315" src="https://www.youtube.com/embed/Gnoc-XuCT9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe class="evid" width="560" height="315" src="https://www.youtube.com/embed/AipmQ2HWOxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe class="evid" width="560" height="315" src="https://www.youtube.com/embed/nD2k199_HBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<video data-src="1.mp4" class="evid" width="560" height="315" controls>
+			<source src="videos/1.mp4" type="video/mp4">
+		</video>
+		<video data-src="2.mp4" class="evid" width="560" height="315" controls>
+			<source src="videos/2.mp4" type="video/mp4">
+		</video>
+		<video data-src="3.mp4" class="evid" width="560" height="315" controls>
+			<source src="videos/3.mp4" type="video/mp4">
+		</video>
+		<video data-src="4.mp4" class="evid" width="560" height="315" controls>
+			<source src="videos/4.mp4" type="video/mp4">
+		</video>
 	</div>
 
+<script src="vmodal.js"></script>
 </body>
 
 </html>

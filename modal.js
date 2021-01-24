@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	previews.forEach((preview) => {
 		preview.addEventListener("click", () => {
-			modalImg.src = `./images/${preview.getAttribute("data-src")}`
+			modalImg.src = `./images/${preview.getAttribute("data-src")}`;
 			modal.style.display = "block";
 		});
 	});
