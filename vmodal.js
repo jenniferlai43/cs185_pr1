@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		    source.type = 'video/mp4';
 		    modalVid.appendChild(source);
 		    modalVid.load();
-		    modal.style.display = "block";
+		    modal.style.display = "flex";
 		})
 	});
 
