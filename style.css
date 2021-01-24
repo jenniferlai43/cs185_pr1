@@ -103,3 +103,14 @@ th, td {
   min-height: 60vh;
   max-height: 60vh;
 }
+
+/* Source/Inspiration: https://dev.to/ljcdev/scroll-to-top-button-in-vanilla-js-beginners-2nc */
+.btt-button {
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1;
+  display: none;
+}

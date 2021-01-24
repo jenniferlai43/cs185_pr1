@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 			var source = document.createElement('source');
 		    source.src = `./videos/${preview.getAttribute("data-src")}`;
-		    console.log(`Adding src: ${source.src}`);
 		    source.type = 'video/mp4';
 		    modalVid.appendChild(source);
 		    modalVid.load();
