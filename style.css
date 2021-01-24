@@ -37,11 +37,11 @@ nav a:hover{
 
 .igallery .img-wrap {
 	text-align: center;
-	margin: 1vh 8vw;
+	margin: 1vh 5vw;
 }
 
 .igallery img {
-	width: 200px;
+	width: 150px;
 }
 
 table, td, th {  
