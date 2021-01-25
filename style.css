@@ -114,3 +114,16 @@ th, td {
   z-index: 1;
   display: none;
 }
+
+.vmsg {
+  color: black;
+  margin: 5vh 0;
+  display: none;
+}
+
+.vmsg span {
+  padding: 5vh;
+  border: 1px black solid;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
