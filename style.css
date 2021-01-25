@@ -38,11 +38,13 @@ nav a:hover{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+  align-items:center;
 }
 
 .igallery .img-wrap {
 	text-align: center;
 	margin: 1vh 5vw;
+  flex: 1;
 }
 
 .igallery img {
