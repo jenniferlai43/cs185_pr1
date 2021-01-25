@@ -10,43 +10,58 @@
 <body>
 	<nav>
 		<a href="index.html">Text Page</a>
-		<a href="images.html">Images Page</a>
+		<a class="active-tab" href="images.html">Images Page</a>
 		<a href="videos.html">Videos Page</a>
 		<a href="table.html">Table Page</a>
+		<a href="email.html">Email Page</a>
 	</nav>
 	<br>
 	<br>
 
+	<button class="btt-button">Back To Top</button>
+
 	<h1>Jennifer's Images Page</h1>
 	<h3>These are some of my favorite Japanese shows!</h3>
 
+	<div id="imgModal" class="modal">
+	  	<img class="overlay-img" id="overlay-img">
+	</div>
 	<div class="igallery">
 		<div class="img-wrap">
 			<p>Attack On Titan</p>
-			<img src="images/aot.jpg">
+			<img src="images/aot.jpg" data-src="aot.jpg">
 		</div>
 		<div class="img-wrap">
 			<p>Fullmetal Alchemist Brotherhood</p>
-			<img src="images/fmab.jpg">
+			<img src="images/fmab.jpg" data-src="fmab.jpg">
 		</div>
 		<div class="img-wrap">
 			<p>Horimiya</p>
-			<img src="images/hori.png">
+			<img src="images/hori.png" data-src="hori.png">
 		</div>
 		<div class="img-wrap">
 			<p>Jujutsu Kaisen</p>
-			<img src="images/jjk.jpg">
+			<img src="images/jjk.jpg" data-src="jjk.jpg">
 		</div>
 		<div class="img-wrap">
 			<p>Oregairu</p>
-			<img src="images/snafu.jpg">
+			<img src="images/snafu.jpg" data-src="snafu.jpg">
 		</div>
 		<div class="img-wrap">
 			<p>The Promised Neverland</p>
-			<img src="images/tpn.jpg">
+			<img src="images/tpn.jpg" data-src="tpn.jpg">
+		</div>
+		<div class="img-wrap">
+			<p>Burn The Witch</p>
+			<img src="images/btw.jpg" data-src="btw.jpg">
+		</div>
+		<div class="img-wrap">
+			<p>My Little Monster</p>
+			<img src="images/mlm.jpg" data-src="mlm.jpg">
 		</div>
 	</div>
-
+<script src="js/modal.js"></script>
+<script src="js/scroll.js"></script>
 </body>
 
 </html>
